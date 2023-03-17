@@ -1,2 +1,2 @@
-# -7DaysOfCode
+# 7DaysOfCode
 Projeto do #7DaysOfCode
