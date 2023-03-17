@@ -1,0 +1,59 @@
+*{
+    font-family: ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #3A404E;
+}
+
+.logo img{
+    width: 27,99px;
+    height: 29px;
+}
+
+.paginas{
+    color: #667085;
+}
+
+
+
+.botoes :first-child{
+    border: none;
+    background-color: white;
+    color: #667085;
+    width: 80px;
+    height: 40px;
+}
+
+.botoes :last-child{
+    background: #8E2424;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+}
+
+
+
+
