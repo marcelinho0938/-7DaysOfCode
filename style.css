@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Inter', sans-serif;
 }
+
+/* Cabeçalho */
 
 nav{
     display: flex;
@@ -33,8 +37,10 @@ li{
     height: 29px;
 }
 
-.paginas{
+.links a{
     color: #667085;
+    text-decoration: none;
+    margin-right: 2em;
 }
 
 
@@ -56,6 +62,30 @@ li{
     height: 35px;
 }
 
+/* Primeira seção */
 
+
+.sobre{
+    text-align: center;
+    height: 23em;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 2em;
+}
+
+.sobre-nos{
+    color: #8E2424;
+}
+
+.sobre-titulo{
+    color: #101828;
+}
+
+.sobre-texto{
+    color: #667085;
+    font-size: 20px;
+    margin-left: 22%;
+    margin-right: 22%;
+}
 
 
