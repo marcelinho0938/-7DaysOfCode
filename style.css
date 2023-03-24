@@ -6,6 +6,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+body{
+    width: 100%;
+    height: 100vh;
+}
+
 /* Cabeçalho */
 
 nav{
@@ -29,7 +34,9 @@ li{
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 18px;
     color: #3A404E;
+    
 }
 
 .logo img{
@@ -41,16 +48,16 @@ li{
     color: #667085;
     text-decoration: none;
     margin-right: 2em;
+    font-size: 16px;
 }
-
-
 
 .botoes :first-child{
     border: none;
-    background-color: white;
+    background: none;
     color: #667085;
     width: 80px;
     height: 40px;
+    cursor: pointer;
 }
 
 .botoes :last-child{
@@ -60,32 +67,251 @@ li{
     border-radius: 8px;
     width: 100px;
     height: 35px;
+    cursor: pointer;
 }
 
 /* Primeira seção */
 
 
 .sobre{
-    text-align: center;
-    height: 23em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    border: 2px solid black;
-    padding: 2em;
+    height: 450px;    
+    gap: 24px;
+    
 }
 
 .sobre-nos{
     color: #8E2424;
+    font-size: 1em;
 }
 
 .sobre-titulo{
     color: #101828;
+    font-size: 2.8em;
 }
 
 .sobre-texto{
     color: #667085;
-    font-size: 20px;
-    margin-left: 22%;
-    margin-right: 22%;
+    font-size: 1.3em;
+    margin-left: 21%;
+    margin-right: 21%;
+    text-align: center;
 }
 
+/* Seção de Métricas  */
+
+.metricas{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 18em;
+    padding-bottom: 8em;
+}
+
+.metricas h1{
+    color: #8E2424;
+    font-size: 3.4em;
+    
+}
+
+.metricas span{
+    font-size: 18px;
+    color: #101828;
+}
+
+.metricas p{
+    color: #667085;
+    font-size: 16px;
+}
+
+.metricas div{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Seção de Talentos */
+
+.talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.talentos-vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.talentos-vagas p{
+    width: 120px;
+    height: 20px;
+    color: #8E2424;
+    background-color: #8E24240D;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px; 
+    padding-top: 0.5%;
+}
+
+.talentos-vagas h1{
+    color: #101828;
+    font-size: 34px
+}
+
+.talentos-vagas span{
+    color: #667085;
+    font-size: 20px;
+}
+
+/* Seção de Vagas */
+
+.vagas{
+    display: flex;
+    justify-content: space-around;
+    height: 1006px;
+    padding: 6%;
+}
+
+.vagas-design, .vagas-ds{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.vagas h1{
+    color: #101828;
+    font-size: 20px;
+}
+
+.vagas-secao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    color: #101828;
+    width: 768px;
+    height: 136px;
+    padding-left: 3%;
+}
+
+.vagas-titulo{
+    color: #101828;
+    font-size: 18px;
+}
+
+.vagas-informacoes {
+    display: flex;
+    color: #667085;
+    font-size: 16px;
+    gap: 24px;
+}
+
+
+/* Seção de Colaboradores */
+
+.colaboradores{
+    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.colaboradores-geral{
+    background-color: #C3191908;
+    width: 1216px;
+    height: 273px;
+    padding: 64px 64px 64px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+
+.colaboradores-textos p{
+    color: #8E2424;
+    font-size: 14px;
+    gap: 90px;
+}
+
+.colaboradores-textos span{
+    color: #101828;
+    font-size: 36px;
+}
+
+.colaboradores-perfil p{
+    color: #101828;
+    font-size: 16px;
+}
+
+.colaboradores-perfil span{
+    color: #667085;
+    font-size: 14px;
+}
+
+.colaboradores-perfil img{
+    width: 56px;
+    height: 56px;
+}
+
+/* Rodapé */
+
+.rodape{
+    height: 430px;
+    background: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodape-textos h1{
+    color: #101828;
+    font-size: 36px;
+}
+
+.rodape-textos p{
+    color: #667085;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rodape-inputs {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.rodape-inputs #email{
+    width: 360px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding-left: 20px;
+}
+
+.rodape-inputs #button{
+    width: 116px;
+    color: #ffffff;
+    font-size: 16px;
+    background: #8E2424;
+    border: none;
+    border-radius: 8px;
+    
+     
+}
+
+.rodape-direitos p{
+    color: #98A2B3;
+}
 
