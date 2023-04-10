@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #17162E;
+    color: #ffffff;
+}
+
+
+/* Seção das pesquisas */
+
+
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#busca{
+    width: 400px;
+}
+
+
+/* CARDS DOS FILMES */
+.filmes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.filmes-cards{
+    border: 1px solid black;
+    display: flex;
+    padding: 1%;
+    margin-top: 2%;
+    
+}
+
+.filmes-cards-foto img{
+    border-radius: 80%;
+    width: 80px;
+}
